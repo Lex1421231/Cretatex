@@ -1,0 +1,92 @@
+.section {
+    &--home {
+        height: 992px;
+        width: 1920px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.container__inner {
+    &--homes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 28px;
+        width: 1242px;
+        height: 752px;
+    }
+
+    &--homestitle {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 450px;
+    }
+
+    &--homesimg {
+        display: flex;
+
+    }
+
+    &--sity {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 48px;
+    }
+}
+
+.container__item {
+    &--hometitle {
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 46px;
+        align-items: start;
+    }
+
+    &--homebtnL {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--homebtnR {
+        height: 40px;
+        width: 40px;
+        background: rgb(255, 90, 48);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    &--sitys {
+        height: 440px;
+        width: 390px;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &--btnsity {
+        border: 1px solid rgb(255, 90, 48);
+        border-radius: 4px;
+        width: 172px;
+        height: 44px;
+        color: rgb(255, 90, 48);
+        background: rgba(255, 255, 255, 0);
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+
+}

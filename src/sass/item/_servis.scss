@@ -1,0 +1,76 @@
+.section {
+    &--servis {
+        height: 880px;
+        width: 1920px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: -92px;
+        z-index: 0;
+        position: relative;
+        background-image: url(../img/servis/background.jpeg);
+    }
+}
+
+.container__inner {
+    &--servises {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 212px;
+    }
+
+    &--servisblok {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    &--servisbtn {
+        margin-top: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+}
+
+.container__item {
+    &--imgblok {
+        height: 285px;
+        width: 285px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/servis/image.jpeg);
+        border: 1px solid rgb(229, 232, 237);
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+    }
+
+    &--white {
+        height: 285px;
+        width: 285px;
+        background: white;
+        transition: all 1.5s;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(30, 33, 44);
+
+        &:hover {
+            background: rgba(255, 255, 255, 0);
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    &--img {
+        margin-top: 89px;
+    }
+
+    &--textblak {
+        margin-top: 26px;
+        font-family: Ubuntu;
+        font-size: 20px;
+    }
+}

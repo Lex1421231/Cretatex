@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+body {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@import 'header/header';
+@import 'item/baner';
+@import 'item/video';
+@import 'item/history';
+@import 'item/inn';
+@import 'item/servis';
+@import 'item/home';
+@import 'item/frend';

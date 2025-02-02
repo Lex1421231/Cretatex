@@ -1,0 +1,59 @@
+.section {
+    &--values {
+        height: 540px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.container__item {
+    &--title2 {
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 46px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 180px;
+    }
+
+    &--textsmall {
+        color: rgb(120, 122, 128);
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    &--historybanners {
+        margin-top: 60px;
+        width: 1231px;
+        height: 188px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &--historybanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 285px;
+        max-height: 188px;
+        text-align: center;
+    }
+
+    &--divider {
+        height: 188px;
+        width: 1px;
+        background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+    }
+
+    &--historyimg {
+        height: 48px;
+        width: 48px;
+    }
+
+}

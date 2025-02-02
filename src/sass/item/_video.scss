@@ -1,0 +1,53 @@
+.section {
+    &--video {
+        height: 781px;
+    }
+}
+
+.container__inner {
+    &--videos {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.container__item {
+
+    &--title {
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 46px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &--videobg {
+        height: 500px;
+        width: 1230px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/video/image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+
+    }
+
+    &--videobotton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 237px;
+    }
+
+    &--videobtn {
+        border: 0px;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        background: rgb(255, 89, 48);
+    }
+
+}

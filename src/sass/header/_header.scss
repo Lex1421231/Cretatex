@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 52px;
+}
+
+
+.container {
+    width: 1230px;
+
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &--nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 40px;
+            margin-left: 60px;
+        }
+
+        &--content {
+            color: rgb(66, 69, 81);
+            font-family: Ubuntu;
+            font-size: 16px;
+            font-weight: 700;
+            list-style-type: none;
+        }
+
+        &--contacts {
+            display: flex;
+            margin-left: 170px;
+            gap: 36px;
+        }
+
+        &--contact {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        &--text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+        }
+
+        &--textfont {
+            color: rgb(66, 69, 81);
+            font-family: Ubuntu;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
